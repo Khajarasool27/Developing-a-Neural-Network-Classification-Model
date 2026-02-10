@@ -14,31 +14,24 @@ You are required to help the manager to predict the right group of the new custo
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
 
-Write your own steps
+### Step 1: Load and Preprocess Data
+Load the dataset, remove irrelevant columns (ID), handle missing values, encode categorical features using Label Encoding, and encode the target class (Segmentation).
 
-### STEP 2: 
+### Step 2: Feature Scaling and Data Split
+Split the dataset into training and testing sets, then normalize the input features using StandardScaler for better neural network performance.
 
+### Step 3: Convert Data to PyTorch Tensors
+Convert the scaled training and testing data into PyTorch tensors and create DataLoader objects for batch-wise training and evaluation.
 
+### Step 4: Define the Neural Network Model
+Design a feedforward neural network with multiple fully connected layers and ReLU activation functions, ending with an output layer for multi-class classification.
 
-### STEP 3: 
+### Step 5: Train the Model
+Train the model using CrossEntropyLoss and Adam optimizer by performing forward propagation, loss calculation, backpropagation, and weight updates over multiple epochs.
 
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
-
+### Step 6: Evaluate and Predict
+Evaluate the trained model on test data using accuracy, confusion matrix, and classification report, and perform prediction on a sample input.
 
 ## PROGRAM
 
@@ -185,7 +178,7 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 ```
 
 ### Dataset Information
-Include screenshot of the dataset.
+
 
 ### OUTPUT
 
@@ -203,4 +196,4 @@ Include screenshot of the dataset.
 
 
 ## RESULT
-Include your result here
+This program has been executed successfully.
