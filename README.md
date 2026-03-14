@@ -11,7 +11,7 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="1158" height="781" alt="image" src="https://github.com/user-attachments/assets/5739ac68-73cb-4794-933d-b78662d0808d" />
 
 ## DESIGN STEPS
 
@@ -178,9 +178,11 @@ print(f'Actual class for sample input: {label_encoder.inverse_transform([y_test[
 ```
 
 ### Dataset Information
+<img width="1295" height="267" alt="image" src="https://github.com/user-attachments/assets/03523707-dae1-4b28-845b-b09f03f0d852" />
 
 
 ### OUTPUT
+<img width="652" height="61" alt="image" src="https://github.com/user-attachments/assets/b6bc19aa-de44-42e4-849e-1a181f118f4b" />
 
 ## Confusion Matrix
 
